@@ -71,6 +71,7 @@
     top: 1.5px;
     left: 275px;
     width: 750px;
+    max-height: 500px;
 }
 
 .slider-img--show{
@@ -98,6 +99,20 @@
 .slider-arrow-left{
     position: absolute;
     left: 100px;
+}
+
+.whatsapp-container{
+    position: fixed;
+    left: 1150px;
+    top: 475px;
+    z-index: 100;
+}
+
+.whatsapp-icon{
+    width: 100px;
+    padding: 10px;
+    background-color: #00c420;
+    border-radius: 50%;
 }
 
 /* Bienvenida */
@@ -252,6 +267,10 @@ footer{
     width: 40px;
 }
 
+.social-media-image:hover{
+    opacity: 85%;
+}
+
 .secondNavigation-items{
     display: flex;
     flex-direction: row;
@@ -265,6 +284,10 @@ footer{
     margin-top: 20px;
 }
 
+.secondNav-items:hover{
+    text-decoration: underline;
+}
+
 .return-button{
     position: relative;
     right: 600px;
@@ -273,6 +296,6 @@ footer{
 .return-button-image{
     width: 50px;
     margin-top: -100px;
-    margin-right: 80px;
+    margin-right: 20px;
     margin-bottom: 10px;
 }
