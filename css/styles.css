@@ -162,7 +162,7 @@ br{
 
 .mapa-img{
     width: auto;
-    height: 95%;
+    height: 475px;
     padding: 15px;
     position: relative;
     left: 250px;
@@ -268,7 +268,7 @@ footer{
 }
 
 .social-media-image:hover{
-    opacity: 85%;
+    opacity: 80%;
 }
 
 .secondNavigation-items{
